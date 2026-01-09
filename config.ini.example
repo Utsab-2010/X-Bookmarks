@@ -1,0 +1,13 @@
+[X]
+# Twitter/X credentials (optional - cookie auth is recommended)
+# Only needed if you want to use password-based login
+username = your_twitter_username
+email = your_email@example.com
+password = your_password
+
+# Note: Using cookies.json is preferred over password auth
+# To use cookies:
+# 1. Install "Cookie Editor" extension for your browser
+# 2. Log into x.com
+# 3. Export cookies to cookies.json
+# 4. Place cookies.json in this directory

@@ -93,9 +93,9 @@ def generate_main_index(output_dir='README_Categories'):
     Path(output_dir).mkdir(exist_ok=True)
     
     # Load the organized bookmarks
-    csv_file = 'organized_bookmarks_v2.csv'
+    csv_file = 'bmk_organised.csv'
     if not os.path.exists(csv_file):
-        print("❌ organized_bookmarks_v2.csv not found!")
+        print("❌ bmk_organised.csv not found!")
         return
     
     df = pd.read_csv(csv_file, encoding='utf-8')
@@ -155,10 +155,10 @@ def main():
     """
     Main function to generate all README files
     """
-    csv_file = 'organized_bookmarks_v2.csv'
+    csv_file = 'bmk_organised.csv'
     
     if not os.path.exists(csv_file):
-        print("❌ organized_bookmarks_v2.csv not found!")
+        print("❌ bmk_organised.csv not found!")
         print("Please run the scraper and categorization first.")
         return
     

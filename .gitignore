@@ -1,3 +1,35 @@
+# Sensitive authentication files
 config.ini
 cookies.json
+*.json.backup
+
+# Data files
+total_bookmarks.csv
+bmk_organised.csv
+twitter_bookmarks_total.csv
+organized_bookmarks_v2.csv
+tweets.csv
+*.csv.backup
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ML model cache
+.cache/
+
+# VS Code
+.vscode/
+
+# Environment
+venv/
+env/
+*.egg-info/
+
+
 scrapper.ipynb
