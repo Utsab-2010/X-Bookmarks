@@ -2,7 +2,7 @@
 
 > A curated collection of bookmarks related to hpc, gpu programming and ml optimisations
 
-Last updated: January 10, 2026 at 01:21:31
+Last updated: January 10, 2026 at 01:39:59
 
 | # | Summary | Link | Date |
 |---|---------|------|------|
